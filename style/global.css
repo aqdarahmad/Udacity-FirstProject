@@ -1,8 +1,11 @@
 body{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background: #f9fafb;
-    color: #333;
+    background: #fbfbf9;
+ 
+     line-height: 1.6;
+       line-height: 1.6;
+    color: #000000;
 }
 a{
     text-decoration: none;
@@ -10,7 +13,7 @@ a{
 }
 
 header{
-    background: #0ce8f498;
+    background: #ffc400 ;
     padding: 1rem;
 }
 .navbar{
@@ -36,7 +39,7 @@ header{
 }
 
 footer{
-    background: #0ce8f498;
+    background: #ffc400 ;
     color: white;
     text-align: center;
     padding: 1rem;
@@ -45,7 +48,7 @@ footer{
 
 .btn{
     display: inline-block;
-    background: #0dfefd;
+    background: #ffc400 ;
     color: white;
     padding: 0.7rem 1.2rem;
     border-radius: 5px;
