@@ -3,8 +3,8 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>My Website</title>
-    <link rel="stylesheet" href="style/global.css" />
-    <link rel="stylesheet" href="style/home.css" />
+    <link rel="stylesheet" href="../style/global.css" >
+    <link rel="stylesheet" href="../style/home.css" >
   </head>
 
   <body>
@@ -14,34 +14,60 @@
         <a href="index.html" class="logo">MyWebsite</a>
         <ul>
           <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#blog">Blog</a></li>
           <li><a href="contact.html">Contact Us</a></li>
         </ul>
       </nav>
     </header>
 
-    <!--Welcome Section-->
+    <!--Hero Section-->
     <section class="hero">
-      <div class="hero-content">
-        <h1>Welcome to Aqdar Website</h1>
+      <h1>Welcome to Aqdar Website</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero minima
+        cum sit corporis laboriosam quia qui similique ipsum, repudiandae,
+        mollitia distinctio iste itaque quidem sequi? Sapiente velit pariatur
+        voluptatum perspiciatis!
+      </p>
+      <a href="#services" class="btn">Get Started</a>
+    </section>
+
+    <!--History-->
+
+    <section id="about" class="history">
+      <h2>History</h2>
+      <div class="history-content">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero
-          minima cum sit corporis laboriosam quia qui similique ipsum,
-          repudiandae, mollitia distinctio iste itaque quidem sequi? Sapiente
-          velit pariatur voluptatum perspiciatis!
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
+          aperiam atque perspiciatis, tenetur fugiat animi molestiae ipsam nisi
+          unde accusantium. Autem esse sapiente dolore et optio rerum
+          perferendis, suscipit accusantium!
         </p>
-        <a href="contact.html" class="btn">Get Started</a>
+        <img src="" alt="Our Team" />
       </div>
     </section>
 
-    <!--Features-->
-    <section class="features">
-      <h2>Our Features</h2>
+    <!--What we do-->
+
+    <section id="services" class="features">
+      <h2>What We Do</h2>
       <div class="features-grid">
-        <div class="card">Fast & Responsive</div>
-        <div class="card">Modern Design</div>
-        <div class="card">24/7 Support</div>
+        <div class="card">
+          Innovative<br /><span>Introducing new ideas</span>
+        </div>
+        <div class="card">
+          Competent<br /><span>Ability & Skill to succed</span>
+        </div>
+        <div class="card">
+          Driven<br /><span>Hard-working & ambitious</span>
+        </div>
+        <div class="card">Optimistic<br /><span>Hopeful & Confident</span></div>
       </div>
     </section>
+
+ 
 
     <!--Footer-->
 
