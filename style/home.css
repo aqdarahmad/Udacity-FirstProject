@@ -82,7 +82,7 @@
 
 }
 
-.feature-grid{
+.features-grid{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(200px , 1fr));
     gap: 2rem;
@@ -98,7 +98,7 @@
 
 }
  
-.card span{
+.card span {
     display: block;
     font-weight:normal ;
     margin-top: 0.5rem;
