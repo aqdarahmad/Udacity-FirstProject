@@ -1,0 +1,72 @@
+.hero{
+    background: radial-gradient(circle at center , #ffc400 , #9a1b67);
+    color: white;
+    text-align: center;
+    padding: 4rem 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.contact-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 3rem 2rem;
+    gap: 3rem;
+}
+
+.contact-details , .contact-form {
+    flex: 1;
+}
+
+.contact-details h2 ,
+.contact-form h2{
+    font-size: 1.5 rem;
+    margin-bottom: 1rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+input , textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea{
+    resize: vertical;
+    min-height: 120px;
+}
+
+.buttons{
+    display: flex;
+    gap: 1rem;
+}
+
+button {
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button.submit {
+    background: #28a745;
+    color: white;
+}
+
+button.reset {
+    background: #dc3545;
+    color: white;
+}
+@media(max-width: 768px){
+    .contact-container{
+        flex-direction: column;
+    }
+}
